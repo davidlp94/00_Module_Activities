@@ -12,12 +12,12 @@ import questionary
 load_dotenv()
 
 # Set the variables for the Alpaca API and secret keys
-alpaca_api_key = os.getenv("ALPACA_API_KEY")
-alpaca_secret_key = os.getenv("ALPACA_SECRET_KEY")
+alpaca_api_key = os.getenv("ALPACA_API_KEY_ENV")
+alpaca_secret_key = os.getenv("ALPACA_SECRET_KEY_ENV")
 
 # Create a function called `sector_report` that will be the application report.
 # This function will be called from the __main__ loop.
-# YOUR CODE HERE!
+def sector_report:
 
     # Print a welcome message for the application
     print("\n......Welcome to the Sector Analyzer Report.....\n")
